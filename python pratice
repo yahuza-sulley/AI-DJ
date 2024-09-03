@@ -1,0 +1,7 @@
+f= open ("demofile.txt","r")
+print(f.readline())
+f.close()
+
+
+import os 
+os.remove("demofile.txt")
